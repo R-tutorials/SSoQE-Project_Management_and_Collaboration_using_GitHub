@@ -46,6 +46,924 @@ Ondřej Mottl
 
 [Science School of Quantitative Ecology 2024](bit.ly/SSoQE)
 
+## Collaboration
+
+```{r}
+#| label: community-exchange
+include_local_figure("community-exchange.jpg")
+```
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
+:::
+
+## Collaboration types
+
+```{r}
+#| label: collaboration-types
+include_local_figure("collaboration-types.jpg")
+```
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
+:::
+
+## Collaboration forms
+
+```{r}
+#| label: Collaboration
+include_local_figure("Collaboration.jpg")
+```
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
+:::
+
+## Collaborate on a project
+
+```{r}
+#| label: ProjectDesign
+include_local_figure("ProjectDesign.jpg")
+```
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
+:::
+
+## Project communication plan
+
+```{r}
+#| label: project-communication-collaborations
+knitr::include_graphics("https://plan.io/images/blog/project-communication-plan.png?1722938254")
+```
+
+::: footer
+[Plan.io](https://plan.io/blog/)
+:::
+
+# Project Management
+
+<br>
+<br>
+
+:::: columns
+
+::: {.column width="20%"}
+:::
+
+::: {.column width="60%"}
+[wiki](https://en.wikipedia.org/wiki/Project_management):
+
+::: {.blockquote}
+[Project management]{.text-color-highlight-primary} is the process of leading work of a team … to achieve all project [goals]{.text-color-highlight-secondary} within the given [constraints]{.text-color-highlight-tertiary}.
+:::
+:::
+
+::: {.column width="20%"}
+:::
+
+::::
+
+## Project Management
+
+```{r}
+#| label: ProjectManagement cyrcle
+knitr::include_graphics("https://plan.io/images/blog/5-phases-of-IT-project-management.png?1722938257")
+```
+
+::: footer
+[Plan.io](https://plan.io/blog/)
+:::
+
+## Tasks management
+
+```{r}
+#| label: tasks-management
+knitr::include_graphics("https://plan.io/images/blog/what-is-task-management.png?1721728085")
+```
+
+::: footer
+[Plan.io](https://plan.io/blog/what-is-task-management/)
+::: 
+
+## What is a task?
+
+```{r}
+#| label: task-definition
+knitr::include_graphics("https://plan.io/images/blog/what-who-how.png?1722938252")
+```
+
+::: footer
+[Plan.io](https://plan.io/blog/what-is-task-management/)
+::: 
+
+## Tasks management tools
+
+[Jory MacKay](https://plan.io/blog/what-is-task-management/)
+
+::: {.blockquote}
+A ... **task management tool** ... is your best friend when it comes to organizing, assigning, tracking, and reporting on tasks.
+:::
+
+:::: {.columns .fragment}
+
+::: {.column width="20%"}
+:::
+
+::: {.column width="60%"}
+```{r}
+#| label: task-management-tools
+knitr::include_graphics("https://plan.io/images/blog/purpose-of-project-schedule.png?1722938242")
+```
+:::
+
+::::
+
+::: footer
+[Plan.io](https://plan.io/blog/)
+:::
+
+## Best Practices
+
+### [1. Split yout work into manageble chunks]{.text-color-highlight-secondary}
+
+:::: {.columns .fragment}
+
+::: {.column width="20%"}
+:::
+
+::: {.column width="60%"}
+
+```{r}
+#| label: task-mng-best-practices-split
+knitr::include_graphics("https://plan.io/images/blog/break-down-projects.png?1721728085")
+```
+
+:::
+
+::: {.column width="20%"}
+:::
+
+::::
+
+::: footer
+[Plan.io](https://plan.io/blog/)
+:::
+
+## Best Practices
+
+### [2. Make your task atomic]{.text-color-highlight-secondary}
+
+It should be clear what is the [**goal**]{.text-color-highlight-primary} and [**criteria**]{.text-color-highlight-tertiary} of the task.
+
+<br>
+
+:::: {.columns }
+
+::: {.column width="20%"}
+:::
+
+::: {.column width="60%" .textcenter}
+::: {.blockquote}
+One chunk of work = one task
+:::
+:::
+
+::::
+
+## Best Practices
+
+### [3. Set priority of tasks]{.text-color-highlight-secondary}
+
+:::: {.columns .fragment}
+
+::: {.column width="10%"}
+:::
+
+::: {.column width="70%"}
+
+```{r}
+#| label: task-mng-best-practices-prioritise
+knitr::include_graphics("https://plan.io/images/blog/eisenhower-box.png?1721728085")
+```
+
+:::
+
+::: {.column width="20%"}
+:::
+
+::::
+
+::: footer
+[Plan.io](https://plan.io/blog/)
+:::
+
+## Making a plan
+
+```{r}
+#| label: making-a-plan
+knitr::include_graphics("https://plan.io/images/blog/creating-actionable-project-plans.png?1722938248")
+```
+
+::: footer
+[Plan.io](https://plan.io/blog/)
+:::
+
+## Time management
+
+Whole chapter in [project management]{.text-color-highlight-primary} is dedicated to [time management]{.text-color-highlight-secondary}.
+
+:::: {.columns}
+
+::: {.column width="50%" .fragment}
+
+```{r}
+#| label: pomodoro
+knitr::include_graphics("https://luxafor.com/wp-content/uploads/2023/02/the-Pomodoro-Technique-3-1-1024x576.png")
+```
+:::
+
+::: {.column width="49%" .fragment}
+```{r}
+#| label: time-blocking
+knitr::include_graphics("https://plan.io/images/blog/time-blocking-visualization.png")
+```
+:::
+
+::::
+
+::: footer
+[https://luxafor.com/](https://luxafor.com/pomodoro-technique-time-management-life-hack/) | [Plan.io](https://plan.io/blog/) 
+:::
+
+## [Practical Exercise]{.r-fit-text} {.exercise .textcenter}
+
+`r countdown(minutes = 3)`
+
+:::{.r-fit-text}
+What tools and methods do you use?
+:::
+
+## Project management tools
+
+There are many tools for project management!!!
+
+::::: {.fragment}
+### Google Keep
+
+:::: {.columns}
+
+::: {.column width="20%"}
+:::
+
+::: {.column width="60%"}
+```{r}
+#| label: project-management-tools
+knitr::include_graphics("https://www.process.st/wp-content/uploads/2024/02/google-keep-homepage.png")
+```
+:::
+::::
+:::::
+
+::: footer
+[How to Use Google Keep to Create The Ultimate Task List](https://www.process.st/how-to-use-google-keep/)
+:::
+
+# GitHub tools suite
+
+:::: {.columns}
+
+::: {.column width="20%"}
+```{r}
+#| label: gh_logo
+include_local_figure("Github-desktop-logo-symbol.svg.png")
+```
+:::
+
+::: {.column width="80%"}
+```{r}
+#| label: project-management-tools-gh
+include_local_figure("GH_management.png")
+```
+:::
+
+::::
+
+::: footer
+[wiki](https://commons.wikimedia.org/wiki/File:Github-desktop-logo-symbol.svg) | [Getting started with project planning on GitHub](https://github.blog/developer-skills/github/getting-started-with-project-planning-on-github/)
+:::
+
+## Issue (a task) on GitHub
+
+Original purpose of [GitHub Issues]{.text-color-highlight-primary} is to track bugs & feature requests in software developmen projects🧑‍💻.
+
+However, We can highjack it for any kind of task management👌🦹.
+
+:::: {.columns}
+
+:::{.column width="10%"}
+:::
+
+:::{.column width="80%"}
+```{r}
+#| label: software-dev-life-cycle
+knitr::include_graphics("https://miro.medium.com/v2/resize:fit:4800/format:webp/1*GU-YWDqM-ZljYHGs1iDNPg.jpeg")
+
+```
+:::
+::::
+
+::: footer
+[Software development life-cycle (SDLC)](https://medium.com/@artjoms/software-development-life-cycle-sdlc-6155dbfe3cbc)
+:::
+
+## Issue (a task) on GitHub
+
+```{r}
+#| label: issue-on-GH
+knitr::include_graphics("https://docs.github.com/assets/cb-66899/mw-1440/images/help/issues/issue-title-body.webp")
+```
+
+::: footer
+[GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+:::
+
+## Note on Markdown
+
+:::: {.columns}
+
+:::: {.column width="50%"}
+You can use [Markdown]{.text-color-highlight-primary} in the description and comments
+
+More details on [Github Docs](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+:::
+
+::: {.column width="50%"}
+```{r}
+#| label: markdown-syntax-issue
+include_local_figure("Markdown_syntax.png")
+```
+:::
+::::
+
+## Splitting tasks 
+
+You can split tasks into [subtasks]{.text-color-highlight-primary} and [checklists]{.text-color-highlight-secondary}.
+
+This allow to track progress more granularly.
+
+```{r}
+#| label: issue-on-GH-subtasks
+knitr::include_graphics("https://docs.github.com/assets/cb-127397/mw-1440/images/help/writing/task-list-rendered.webp")
+```
+
+::: footer
+[GitHub Docs](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists)
+:::
+
+## Labels
+
+You can use [labels]{.text-color-highlight-primary} to categorize tasks.
+
+```{r}
+#| label: issue-on-GH-labels
+knitr::include_graphics("https://docs.github.com/assets/cb-120194/mw-1440/images/help/issues/issue-with-label.webp")
+```
+
+::: footer
+[GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+:::
+
+## Labels
+
+::::{.columns}
+
+:::{.column width="35%"}
+Be crateative! You can create your own **labels** based on:
+
+* [priority]{.text-color-highlight-primary}
+* [type]{.text-color-highlight-secondary}
+* [status]{.text-color-highlight-tertiary}
+* ...
+:::
+
+:::{.column width="64%" .fragment}
+```{r}
+#| label: issue-on-GH-labels2
+include_local_figure("gh_labels.png")
+```
+:::
+::::
+
+::: footer
+[GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+:::
+
+## Issues - Assign
+
+```{r}
+#| label: issue-on-GH-assign
+knitr::include_graphics("https://docs.github.com/assets/cb-119861/mw-1440/images/help/issues/issue-assignees.webp")
+```
+
+::: footer
+[GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues)
+:::
+
+## Issues - space for communication
+
+```{r}
+#| label: issue-on-GH-comments
+knitr::include_graphics("https://rewind.com/wp-content/uploads/2021/03/G8oAt9b.png")
+```
+
+::: footer
+[Rewind](https://rewind.com/blog/best-practices-for-using-github-issues/)
+:::
+
+## [Practical Exercise]{.r-fit-text} {.exercise .textcenter}
+
+`r countdown(minutes = 3)`
+
+::: {.r-fit-text}
+1. Look up issues on your favourite software (e.g. R package)
+2. Create an issue on your repo
+3. Make a comment
+:::
+
+## Tracking progress - link PRs
+
+[Issues]{.text-color-highlight-primary} can be linked to [Pull Requests]{.text-color-highlight-secondary}.
+
+Link specific work with specific changes.
+
+```{r}
+#| label: issue-on-GH-PR
+knitr::include_graphics("https://github.blog/wp-content/uploads/2020/02/issue-pull-request-link.png")
+```
+
+::: footer
+[GitHub Docs](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue#linking-a-pull-request-to-an-issue-using-a-keyword)
+:::
+
+## Tracking progress - link PRs
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+When a PR is merged, the issue is closed automatically.
+
+Use the word [`close`]{.text-color-highlight-secondary} or [`fix`]{.text-color-highlight-secondary} in the PR description to link it to the issue.
+
+:::
+
+::: {.column width="50%" }
+```{r}
+#| label: Link-PR
+include_local_figure("issue_closed_by_PR_1.png")
+```
+
+::: {.fragment}
+The issue is closed by the PR
+```{r}
+#| label: Link-PR2
+include_local_figure("issue_closed_by_PR_2.png")
+```
+:::
+
+:::
+::::
+
+## Tracking progress - Milestones
+
+```{r}
+#| label: milestones
+knitr::include_graphics("https://plan.io/images/blog/project-timeline-with-milestones.png?1722938244")
+```
+
+::: footer
+[Plan.io](https://plan.io/blog/)
+:::
+
+## Tracking progress - Milestones
+
+```{r}
+#| label: gh-milestones
+knitr::include_graphics("https://docs.github.com/assets/cb-120118/mw-1440/images/help/issues/issue-milestone.webp")
+```
+
+::: footer
+[GitHub Docs](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
+:::
+
+## Tracking progress - Milestones
+
+You can create a Milestone for:
+
+* [Time frame]{.text-color-highlight-primary} - "2024-10-12", "Conference XY", ...
+* [Goal]{.text-color-highlight-secondary} - "Methodology refactor", "paper submission", ...
+* [General topic]{.text-color-highlight-tertiary} - "Data cleaning", "Data analysis", ...
+
+# GitHub Projects
+
+```{r}
+#| label: GH-project-tools
+knitr::include_graphics("https://github.blog/wp-content/uploads/2022/02/GitHub-Issues-project-planning_banner.png")
+```
+
+::: footer
+[GitHub Docs](https://github.com/features/issues)
+:::
+
+## GitHub Projects
+
+You can organise your [Issues]{.text-color-highlight-primary} and [Pull Requests]{.text-color-highlight-secondary} in [Projects]{.text-color-highlight-tertiary}.
+
+```{r}
+#| label: GH-projects
+knitr::include_graphics("https://docs.github.com/assets/cb-108386/mw-1440/images/help/projects/priority-example.webp")
+```
+
+::: footer
+[GitHub Docs](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/quickstart-for-projects)
+:::
+
+## GitHub Projects
+
+:::: {.columns}
+
+::: {.column width="40%"}
+You can customise the [columns]{.text-color-highlight-primary} in [Projects]{.text-color-highlight-secondary} with:
+ 
+* [Labels]{.text-color-highlight-tertiary}
+* [Linked Pull Requests]{.text-color-highlight-tertiary}
+* [Milestones]{.text-color-highlight-tertiary}
+* ...
+:::
+
+::: {.column width="60%"}
+```{r}
+#| label: GH-projects-columns
+knitr::include_graphics("https://github.githubassets.com/assets/issue-custom-fields-reduced-motion-dd7b91ab2517.jpg")
+```
+:::
+::::
+
+::: footer
+[GitHub Docs](https://github.com/features/issues)
+:::
+
+## GitHub Projects - custom views
+
+```{r}
+#| label: GH-projects-custom-views
+knitr::include_graphics("https://github.githubassets.com/assets/memex-table-slice-dark-8fde73579a0b.png")
+```
+
+::: footer
+[GitHub Docs](https://github.com/features/issues)
+:::
+
+## GitHub Projects - custom views
+
+```{r}
+#| label: GH-projects-custom-views2
+knitr::include_graphics("https://github.githubassets.com/assets/memex-board-dark-48efb683527e.png")
+```
+
+::: footer
+[GitHub Docs](https://github.com/features/issues)
+:::
+
+## GitHub Projects 
+
+There is so much more you can do with [Projects]{.text-color-highlight-primary}:
+
+* [Automations]{.text-color-highlight-secondary}
+* [Road maps]{.text-color-highlight-tertiary}
+* ...
+
+Check the [official documentation](https://github.com/features/issues)
+
+
+## [Practical Exercise]{.r-fit-text} {.exercise .textcenter}
+
+`r countdown(minutes = 3)`
+
+::: {.r-fit-text}
+1. Make some Issues in your repo
+2. Organise them in a Project
+:::
+
+# [Additional functions]{.r-fit-text} {.subtitle .textcenter}
+
+[of GitHub]{.r-fit-text}
+
+## Discussions
+
+Project-specific space for [communication]{.text-color-highlight-primary} on GitHub.
+
+```{r}
+#| label: GH-discussions
+knitr::include_graphics("https://github.githubassets.com/assets/overview-d34a37d61239.png")
+```
+
+::: footer
+[GitHub Docs](https://github.com/features/discussions)
+:::
+
+## Discussions
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Threads
+
+```{r}
+#| label: GH-discussions-threads
+include_local_figure("gh_dicussion_threads.png")
+```
+
+:::
+
+::: {.column width="49%" .fragment}
+Pools
+
+```{r}
+#| label: GH-discussions-pools
+include_local_figure("gh_dicussion_pools.png")
+```
+
+:::
+
+::::
+
+::: footer
+[GitHub Docs](https://github.com/features/discussions)
+:::
+
+## Discussions
+
+From [Discussions]{.text-color-highlight-primary} to [Issues]{.text-color-highlight-secondary}.
+
+:::: {.columns}
+
+::: {.column width="49%"}
+```{r}
+#| label: GH-discussions-to-issues
+include_local_figure("gh_dicussion_to_issue_A.png")
+```
+:::
+
+::: {.column width="50%" .fragment}
+
+```{r}
+#| label: GH-discussions-to-issues2
+include_local_figure("gh_dicussion_to_issue_B.png")
+```
+:::
+::::
+
+::: footer
+[GitHub Docs](https://github.com/features/discussions)
+:::
+
+## Wikis
+
+```{r}
+#| label: GH-wiki
+knitr::include_graphics("https://github.blog/wp-content/uploads/2014/05/b6d486e6-d09c-11e3-9fd1-1bc80fb64371.png")
+```
+
+::: footer
+[GitHub Docs](https://docs.github.com/en/communities/documenting-your-project-with-wikis/about-wikis)
+:::
+
+## [Practical Exercise]{.r-fit-text .textcenter} {.exercise }
+
+:::{.r-fit-text .textcenter}
+Brainstorm on how you could use Discussions and Wikis in 
+:::
+
+1. your current projects
+2. future projects
+
+`r countdown(minutes = 3)`
+
+## Team administration
+
+:::: {.columns}
+
+::: {.column width="39%"}
+
+```{r}
+#| label: ResearchTools
+include_local_figure("ResearchTools.jpg")
+```
+:::
+
+::: {.column width="60%" .fragment}
+
+```{r}
+#| label: GH-team-admin
+knitr::include_graphics("https://nap.nationalacademies.org/openbook/25568/xhtml/images/img-98.jpg")
+```
+:::
+
+::::
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807) | [Mentorship Structures](https://nap.nationalacademies.org/read/25568/chapter/6)
+:::
+
+## Team administration
+
+Github allows you to manage your team by specifying [roles]{.text-color-highlight-primary} and [permissions]{.text-color-highlight-secondary}.
+
+```{r}
+#| label: GH-team-admin-roles
+include_local_figure("GH_team_admin.png")
+```
+
+::: footer
+[GitHub Docs](https://github.com/features/#features-team-administration)
+:::
+
+## Team administration
+
+```{r}
+#| label: GH-team-admin-roles2
+knitr::include_graphics("https://github.blog/wp-content/uploads/2023/08/image2.png")
+```
+
+::: footer
+[Best practices for organizations and teams using GitHub Enterprise Cloud](https://github.blog/enterprise-software/devops/best-practices-for-organizations-and-teams-using-github-enterprise-cloud/)
+:::
+
+## Team administration - Roles
+
+```{r}
+#| label: GH-team-admin-roles3
+knitr::include_graphics("https://cdn.prod.website-files.com/65cb70dea86ef31d62e7ad25/65dc9790deb55bea60f20179_630d23aa00443e4276226ebd_pre-defined_roles_f859b878b8d94a5a98737bd2c66493e2_1000.png")
+```
+
+::: footer
+[GitHub Advanced Security — Secret Scanning](https://www.liatrio.com/resources/blog/github-advanced-security-secret-scanning)
+:::
+
+## Team administration - Mentoring
+
+:::: {.columns}
+
+::: {.column width="34%"}
+```{r}
+#| label: GH-team-admin-roles-teaching
+include_local_figure("CommunityNetwork.jpg")
+```
+:::
+
+::: {.column width="65%" .fragment}
+
+```{r}
+#| label: GH-team-admin-roles-teaching2
+include_local_figure("FirstPullRequest.jpg")
+```
+:::
+
+::::
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
+:::
+
+## [Practical Exercise]{.r-fit-text} {.exercise .textcenter}
+
+:::{.r-fit-text}
+How would you desing a roles for your team/project?
+:::
+
+`r countdown(minutes = 3)`
+
+## Dissemintation
+
+```{r}
+#| label: sharing
+knitr::include_graphics("https://ecdn.teacherspayteachers.com/thumbitem/Sharing-Taking-Turns-Social-Story-Sharing-is-Caring-2116795-1657562183/original-2116795-1.jpg
+")
+```
+
+::: footer
+[https://www.teacherspayteachers.com/](https://www.teacherspayteachers.com/Product/Sharing-Taking-Turns-Social-Story-Sharing-is-Caring-2116795?st=28217229556fa41179351fd430c2ca9c)
+:::
+
+## Dissemintation
+
+```{r}
+#| label: publishing-scheme
+include_local_figure("Ten Simple Rules for Taking Advantage of Git and GitHub.png")
+```
+
+::: footer
+[Ten Simple Rules for Taking Advantage of Git and GitHub](http://dx.doi.org/10.1371/journal.pcbi.1004947)
+:::
+
+## Dissemintation
+
+GitHub uses [git Tag]() and expand on it with [Releases]().
+
+:::: {.columns}
+
+::: {.column width="45%"}
+A [Tag]{.text-color-highlight-primary} is a "frozen" state of repo at a certain time
+
+```{r}
+#| label: git-tag
+knitr::include_graphics("https://miro.medium.com/v2/resize:fit:720/format:webp/1*34EO-6Ra2ath8-p4iBQBRQ.png")
+```
+
+:::
+
+::: {.column width="45%" .fragment}
+A [Release]{.text-color-highlight-secondary}, based on a [Tag]{.text-color-highlight-primary}, "packs" the whole repo into [downloadable zip]{.text-color-highlight-tertiary} (with docs)
+
+```{r}
+#| label: git-release
+knitr::include_graphics("https://github.blog/wp-content/uploads/2021/10/GitHub-new-releases-screenshot.png?resize=1024%2C772?w=1024")
+```
+
+:::
+
+::::
+
+::: footer
+[Git Tag - All You Need to Know](https://medium.com/@basecs101/git-tag-all-you-need-to-know-latest-be443ae90bb9) | [GitHub Docs](https://github.blog/news-insights/product-news/beta-github-releases-improving-release-experience/)
+:::
+
+## Dissemintation - GitHub + ZENODO
+
+Get [DOI]{.text-color-highlight-primary} for your code and data with [Zenodo]{.text-color-highlight-secondary}.
+
+:::: {.columns}
+::: {.column width="20%"}
+
+```{r}
+#| label: zenodo-gh-love
+knitr::include_graphics("https://conservationbytes.com/wp-content/uploads/2021/11/zenodolovesgithub.png")
+```
+:::
+
+::: {.column width="80%"}
+
+```{r}
+#| label: zenodo-gh-love2
+include_local_figure("zenodo-gh.png")
+```
+:::
+
+::::
+
+::: footer
+[Want a permanent DOI assigned to your data and code?](https://conservationbytes.com/2021/11/02/want-a-permanent-doi-assigned-to-your-data-and-code-follow-this-simple-recipe/) | [Zenodo](https://zenodo.org/)
+:::
+
+
+## GitHub Actions
+
+Automate your works🤖!
+
+Create a custom small program that will run on GitHub servers.
+
+```{r}
+#| label: GH-actions
+knitr::include_graphics("https://docs.github.com/assets/cb-25535/mw-1440/images/help/actions/overview-actions-simple.webp")
+```
+
+## GitHub Actions
+
+Usage examples:
+
+:::: {.columns}
+
+::: {.column width="35%" .incremental}
+
+* run your script every day (e.g. to update data)
+* run your tests every time you push new code/data
+* render your website every time you update your content
+* ...
+
+:::
+
+::: {.column width="60%" .fragment}
+
+```{r}
+#| label: GH-actions2
+include_local_figure("gh_action_example.png")
+```
+:::
+
+::::
+
 # [Outro]{.bold .r-fit-text} {.title}
 
 ## [This presentation]{.bold .r-fit-text} {.title}
@@ -89,3 +1007,4 @@ Assistant Professor at [Charles University](https://cuni.cz/UK-1.html)
 * 🌐 [Personal webpage](https://ondrejmottl.github.io/)
 * 🧑‍💻 [Laboratory of Quantitative Ecology](https://ondrejmottl.github.io/lab/about_the_lab.html)
 :::
+::::
