@@ -1,12 +1,12 @@
 #----------------------------------------------------------#
 #
 #
-#                     Project name
+#           Project Management and Collaboration
 #
 #                  Render presentation
 #
 #
-#                O. Mottl, Author name
+#                       O. Mottl
 #                         2024
 #
 #----------------------------------------------------------#

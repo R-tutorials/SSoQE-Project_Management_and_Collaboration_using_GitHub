@@ -1,12 +1,12 @@
 #----------------------------------------------------------#
 #
 #
-#                     Project name
+#           Project Management and Collaboration
 #
 #                     Project setup
 #
 #
-#                O. Mottl, Author name
+#                       O. Mottl
 #                         2024
 #
 #----------------------------------------------------------#
