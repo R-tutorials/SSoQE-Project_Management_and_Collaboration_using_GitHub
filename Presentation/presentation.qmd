@@ -656,6 +656,192 @@ Check the [official documentation](https://github.com/features/issues)
 2. Organise them in a Project
 :::
 
+# Dissemintation
+
+```{r}
+#| label: sharing
+knitr::include_graphics("https://ecdn.teacherspayteachers.com/thumbitem/Sharing-Taking-Turns-Social-Story-Sharing-is-Caring-2116795-1657562183/original-2116795-1.jpg
+")
+```
+
+::: footer
+[https://www.teacherspayteachers.com/](https://www.teacherspayteachers.com/Product/Sharing-Taking-Turns-Social-Story-Sharing-is-Caring-2116795?st=28217229556fa41179351fd430c2ca9c)
+:::
+
+## Dissemintation
+
+```{r}
+#| label: publishing-scheme
+include_local_figure("Ten Simple Rules for Taking Advantage of Git and GitHub.png")
+```
+
+::: footer
+[Ten Simple Rules for Taking Advantage of Git and GitHub](http://dx.doi.org/10.1371/journal.pcbi.1004947)
+:::
+
+## Dissemintation
+
+GitHub uses [git Tag]() and expand on it with [Releases]().
+
+:::: {.columns}
+
+::: {.column width="45%"}
+A [Tag]{.text-color-highlight-primary} is a "frozen" state of repo at a certain time
+
+```{r}
+#| label: git-tag
+knitr::include_graphics("https://miro.medium.com/v2/resize:fit:720/format:webp/1*34EO-6Ra2ath8-p4iBQBRQ.png")
+```
+
+:::
+
+::: {.column width="45%" .fragment}
+A [Release]{.text-color-highlight-secondary}, based on a [Tag]{.text-color-highlight-primary}, "packs" the whole repo into [downloadable zip]{.text-color-highlight-tertiary} (with docs)
+
+```{r}
+#| label: git-release
+knitr::include_graphics("https://github.blog/wp-content/uploads/2021/10/GitHub-new-releases-screenshot.png?resize=1024%2C772?w=1024")
+```
+
+:::
+
+::::
+
+::: footer
+[Git Tag - All You Need to Know](https://medium.com/@basecs101/git-tag-all-you-need-to-know-latest-be443ae90bb9) | [GitHub Docs](https://github.blog/news-insights/product-news/beta-github-releases-improving-release-experience/)
+:::
+
+## [Open Data]{.r-fit-text} {.subtitle .textcenter}
+
+[Intermezzo]{.r-fit-text}
+
+## Sharing Data
+
+Do you generate data and/or software?
+
+:::: columns
+::: {.column width="50%" .fragment}
+
+```{r}
+#| label: DOI
+include_local_figure("DOI.jpg")
+```
+
+:::
+
+::: {.column width="50%" .incremental}
+
+* Get a permanent URL to the repository as a [**Digital Object Identifier**]{.text-color-highlight-primary} (DOI)
+* Deposit them in a "stable" repository (eg. [Zenodo](https://zenodo.org/), [Figshare](https://figshare.com/), etc)
+* Included an example of how to cite it in the [**README**]{.text-color-highlight-secondary} or documentation
+
+:::
+::::
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
+:::
+
+## FAIR Principles
+
+Good practices for the management and administration of scientific data
+
+:::: columns
+::: {.column width="50%"}
+
+```{r}
+#| label: FAIR
+include_local_figure("FAIRPrinciples.jpg")
+```
+
+:::
+
+::: {.column width="50%"}
+
+::: {.textcenter .bold .text-color-highlight-secondary}
+"*Access as open as possible, as closed as necessary*"
+:::
+
+::: incremental
+* [**F**]{.text-color-highlight-primary}indable 
+* [**A**]{.text-color-highlight-primary}ccesible 
+* [**I**]{.text-color-highlight-primary}nteroperable 
+* [**R**]{.text-color-highlight-primary}eusable
+:::
+
+:::
+::::
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
+:::
+
+## Open vs Close
+
+```{r}
+#| label: open-vs-close
+include_local_figure("open-vs-close-research-with-text.jpg")
+```
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
+:::
+
+## Licensing
+
+[ZENODO]{.text-color-highlight-primary} allows you to choose a licence for your data.
+
+You can always share your private data and [**restricted access**]{.text-color-highlight-secondary} with the correct licence.
+
+There are websites e.g. [https://choosealicense.com/](https://choosealicense.com/) to help on choosing a licence.
+
+```{r}
+#| label: licensing
+knitr::include_graphics("https://howtofair.dk/media/vkynh5av/examples-of-data-licences.png")
+```
+
+::: footer
+[How to  FAIR](https://howtofair.dk/how-to-fair/data-licences/)
+:::
+
+## Dissemintation - GitHub + ZENODO
+
+Get [DOI]{.text-color-highlight-primary} for your code and data with [Zenodo]{.text-color-highlight-secondary}.
+
+:::: {.columns}
+::: {.column width="20%"}
+
+```{r}
+#| label: zenodo-gh-love
+knitr::include_graphics("https://conservationbytes.com/wp-content/uploads/2021/11/zenodolovesgithub.png")
+```
+:::
+
+::: {.column width="80%"}
+
+```{r}
+#| label: zenodo-gh-love2
+include_local_figure("zenodo-gh.png")
+```
+:::
+
+::::
+
+::: footer
+[Want a permanent DOI assigned to your data and code?](https://conservationbytes.com/2021/11/02/want-a-permanent-doi-assigned-to-your-data-and-code-follow-this-simple-recipe/) | [Zenodo](https://zenodo.org/)
+:::
+
+## Data stewards
+
+```{r}
+#| label: DataStewards
+include_local_figure("DataStewards.jpg")
+```
+
+::: footer
+[This image was created by Scriberia for The Turing Way community and is used under a CC-BY licence](https://zenodo.org/doi/10.5281/zenodo.3332807)
+:::
+
 # [Additional functions]{.r-fit-text} {.subtitle .textcenter}
 
 [of GitHub]{.r-fit-text}
@@ -844,88 +1030,6 @@ How would you desing a roles for your team/project?
 :::
 
 `r countdown(minutes = 3)`
-
-## Dissemintation
-
-```{r}
-#| label: sharing
-knitr::include_graphics("https://ecdn.teacherspayteachers.com/thumbitem/Sharing-Taking-Turns-Social-Story-Sharing-is-Caring-2116795-1657562183/original-2116795-1.jpg
-")
-```
-
-::: footer
-[https://www.teacherspayteachers.com/](https://www.teacherspayteachers.com/Product/Sharing-Taking-Turns-Social-Story-Sharing-is-Caring-2116795?st=28217229556fa41179351fd430c2ca9c)
-:::
-
-## Dissemintation
-
-```{r}
-#| label: publishing-scheme
-include_local_figure("Ten Simple Rules for Taking Advantage of Git and GitHub.png")
-```
-
-::: footer
-[Ten Simple Rules for Taking Advantage of Git and GitHub](http://dx.doi.org/10.1371/journal.pcbi.1004947)
-:::
-
-## Dissemintation
-
-GitHub uses [git Tag]() and expand on it with [Releases]().
-
-:::: {.columns}
-
-::: {.column width="45%"}
-A [Tag]{.text-color-highlight-primary} is a "frozen" state of repo at a certain time
-
-```{r}
-#| label: git-tag
-knitr::include_graphics("https://miro.medium.com/v2/resize:fit:720/format:webp/1*34EO-6Ra2ath8-p4iBQBRQ.png")
-```
-
-:::
-
-::: {.column width="45%" .fragment}
-A [Release]{.text-color-highlight-secondary}, based on a [Tag]{.text-color-highlight-primary}, "packs" the whole repo into [downloadable zip]{.text-color-highlight-tertiary} (with docs)
-
-```{r}
-#| label: git-release
-knitr::include_graphics("https://github.blog/wp-content/uploads/2021/10/GitHub-new-releases-screenshot.png?resize=1024%2C772?w=1024")
-```
-
-:::
-
-::::
-
-::: footer
-[Git Tag - All You Need to Know](https://medium.com/@basecs101/git-tag-all-you-need-to-know-latest-be443ae90bb9) | [GitHub Docs](https://github.blog/news-insights/product-news/beta-github-releases-improving-release-experience/)
-:::
-
-## Dissemintation - GitHub + ZENODO
-
-Get [DOI]{.text-color-highlight-primary} for your code and data with [Zenodo]{.text-color-highlight-secondary}.
-
-:::: {.columns}
-::: {.column width="20%"}
-
-```{r}
-#| label: zenodo-gh-love
-knitr::include_graphics("https://conservationbytes.com/wp-content/uploads/2021/11/zenodolovesgithub.png")
-```
-:::
-
-::: {.column width="80%"}
-
-```{r}
-#| label: zenodo-gh-love2
-include_local_figure("zenodo-gh.png")
-```
-:::
-
-::::
-
-::: footer
-[Want a permanent DOI assigned to your data and code?](https://conservationbytes.com/2021/11/02/want-a-permanent-doi-assigned-to-your-data-and-code-follow-this-simple-recipe/) | [Zenodo](https://zenodo.org/)
-:::
 
 
 ## GitHub Actions
